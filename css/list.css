@@ -1,0 +1,139 @@
+/* 列表页专有css */
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    border-left: 1px solid #b1191a;
+    left: 190px;
+    top: 15px;
+    padding: 3px 15px;
+}
+
+.sk_list {
+    float: left;
+}
+
+
+.sk_list ul li {
+    float: left;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0 28px;
+    line-height: 47px;
+
+}
+
+
+
+.sk_list ul li a {
+    color: #000;
+}
+
+.sk_con ul li {
+    float: left;
+    font-size: 14px;
+    padding: 0 22px;
+    line-height: 52px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '';
+    margin-right: 60PX;
+}
+
+.sk_con {
+    float: right;
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    padding: 12px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #e12228;
+}
+
+.sk_bd ul li {
+    position: relative;
+    overflow: hidden;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_title {
+    font-size: 14px;
+    color: #666;
+}
+
+.sk_price {
+    font-size: 22px;
+}
+
+.sk_price i {
+    text-decoration: line-through;
+    color: #a4a4a4;
+    font-size: 14px;
+}
+
+.sk_schedule {
+    position: relative;
+    font-size: 14px;
+}
+
+.sk_schedule div {
+    position: absolute;
+    left: 65px;
+    top: 5px;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #ed282e;
+    border-radius: 5px;
+}
+
+.sk_schedule div span {
+    display: block;
+    width: 87%;
+    height: 100%;
+    background-color: #ed282e;
+}
+
+.sk_schedule em {
+    float: right;
+    text-align: right;
+}
+
+.sk_bd .sk_now {
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 290px;
+    height: 50px;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.elevator {
+    position: fixed;
+    left: calc(50% + 610px);
+    bottom: 50px;
+    width: 68px;
+}
+
+.elevator ul li {
+    height: 68px;
+    margin-bottom: 1px;
+}
